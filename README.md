@@ -1,2 +1,3 @@
 # dotfiles-
-i3 and all that jazz
+forked from https://github.com/Besufikad17/dotfiles and tweaked to my likings 
+
