@@ -72,12 +72,13 @@ bindsym $mod+Shift+p exec xfce4-screenshooter
 # autostart
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id picom -b
+exec --no-startup-id copyq
 exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh --blocks
 exec_always --no-startup-id $HOME/.config/scripts/swapkeys.sh
 
 #i3lock
-bindsym $mod+l exec $HOME/.config/scripts/lock.sh
+bindsym $mod+l exec i3lock -i $HOME/.config/lock.png 
 
 # change focus
 bindsym $mod+j focus left

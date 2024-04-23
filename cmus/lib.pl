@@ -678,6 +678,16 @@
 /home/nk/Music/Cigarettes After Sex/Falling In Love/01. Cigarettes After Sex - Falling In Love.mp3
 /home/nk/Music/01_Clean_Bandit_Rockabye_feat_Sean.mp3
 /home/nk/Music/01 Coldplay - Adventure of a Lifetime.mp3
+/home/nk/Music/Collie Buddz - Good Life (128)/Collie Buddz - Control (128).mp3
+/home/nk/Music/Collie Buddz - Good Life (128)/Collie Buddz - Lovely Day (128).mp3
+/home/nk/Music/Collie Buddz - Good Life (128)/Collie Buddz - Part of My Life (128).mp3
+/home/nk/Music/Collie Buddz - Good Life (128)/Collie Buddz & Kat Dahlia - Save Me from the Rain (feat. Kat Dahlia) (128).mp3
+/home/nk/Music/Collie Buddz - Good Life (128)/Collie Buddz - Good Life (128).mp3
+/home/nk/Music/Collie Buddz - Good Life (128)/Collie Buddz - I Got You (128).mp3
+/home/nk/Music/Collie Buddz - Good Life (128)/Collie Buddz & Kreesha Turner - Used To (feat. Kreesha Turner) (128).mp3
+/home/nk/Music/Collie Buddz - Good Life (128)/Collie Buddz & P-Lo - Level (feat. P-LO) (128).mp3
+/home/nk/Music/Collie Buddz - Good Life (128)/Collie Buddz & Snoop Dogg & Jody Highroller - Yesterday (feat. Snoop Dogg & Jody Highroller) (128).mp3
+/home/nk/Music/Collie Buddz - Good Life (128)/Collie Buddz - Glass House (128).mp3
 /home/nk/Music/Coma Cinema – Blue Suicide/Coma Cinema - Business as Usual.mp3
 /home/nk/Music/Coma Cinema – Blue Suicide/Coma Cinema - Hell.mp3
 /home/nk/Music/Coma Cinema – Blue Suicide/Coma Cinema - Greater Vultures.mp3
@@ -2138,6 +2148,71 @@
 /home/nk/Music/The Smiths – The Queen Is Dead/08 The Smiths - Vicar in a Tutu (2011 Remaster).mp3
 /home/nk/Music/The Smiths – The Queen Is Dead/09 The Smiths - There Is a Light That Never Goes Out (2011 R.mp3
 /home/nk/Music/The Smiths – The Queen Is Dead/10 The Smiths - Some Girls Are Bigger Than Others (2011 Rema.mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Candy Says (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - What Goes On (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Some Kinda Love (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Pale Blue Eyes (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Jesus (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Beginning To See The Light (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - I'm Set Free (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - That's The Story Of My Life (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - The Murder Mystery (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - After Hours (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Candy Says (Closet Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - What Goes On (Closet Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Some Kinda Love (Closet Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Pale Blue Eyes (Closet Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Jesus (Closet Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Beginning To See The Light (Closet Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - I'm Set Free (Closet Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - That's The Story Of My Life (Closet Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - The Murder Mystery (Closet Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - After Hours (Closet Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Beginning To See The Light (Alternate Closet Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Candy Says (Mono Version) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - What Goes On (Mono Version) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Some Kinda Love (Mono Version) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Pale Blue Eyes (Mono Version) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Jesus (Mono Version) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Beginning To See The Light (Mono Version) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - I'm Set Free (Mono Version) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - That's The Story Of My Life (Mono Version) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - The Murder Mystery (Mono Version) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - After Hours (Mono Single) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - What Goes On (Mono Single) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Jesus (Mono Single) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Foggy Notion (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - One Of These Days (1969  2014 Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Lisa Says (1969  2014 Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - I'm Sticking With You (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Andy's Chest (1969  Original Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Coney Island Steeplechase (1969  2014 Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Ocean (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - I Can't Stand It (1969  2014 Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - She's My Best Friend (1969  Original Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - We're Gonna Have A Real Good Time Together (1969  2014 Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - I'm Gonna Move Right In (1969  Original Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Ferryboat Bill (1969  Original Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Rock And Roll (1969  Original Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Ride Into The Sun (1969  2014 Mix) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - I'm Waiting For The Man (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - What Goes On (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Some Kinda Love (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Over You (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - We're Gonna Have A Real Good Time Together (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Beginning To See The Light (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Lisa Says (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Rock And Roll (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Pale Blue Eyes (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - I Can't Stand It Anymore (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Venus In Furs (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - There She Goes Again (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Sister Ray (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Heroin (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - White LightWhite Heat (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - I'm Set Free (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - After Hours (Live) (128).mp3
+/home/nk/Music/The_Velvet_Underground_The_Velvet_Underground_45th_Anniversary_Super/The Velvet Underground - Sweet Jane (Live) (128).mp3
 /home/nk/Music/The Wailers/Burnin' (Deluxe Edition)/03. The Wailers - I Shot The Sheriff.mp3
 /home/nk/Music/Bob Marley & The Wailers/Burnin' (Deluxe Edition)/14. Bob Marley & The Wailers - Get Up, Stand Up.mp3
 /home/nk/Music/House of balloons/Coming Down (Original) - The Weeknd.mp3
