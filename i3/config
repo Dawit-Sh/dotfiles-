@@ -64,7 +64,7 @@ bindsym $mod+d exec "rofi -no-config -no-lazy-grab -show drun -modi drun -theme 
 bindsym $mod+Shift+s exec "rofi -show power-menu -modi power-menu:~/.local/bin/rofi-power-menu"
 
 # clipboard 
-bindsym $mod+c exec copyq menu
+bindsym $mod+Shift+q exec copyq menu
 
 #postman
 bindsym $mod+Shift+p exec xfce4-screenshooter
