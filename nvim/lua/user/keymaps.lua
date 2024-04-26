@@ -65,7 +65,7 @@ keymap("v", ">", ">gv", opts)
 
 -- Plugins --
 
---  Neorg 
+--  Markdown preview  
 keymap("n", "<S-p>", ":MarkdownPreviewToggle<CR>")
 
 -- Oil Nim 
