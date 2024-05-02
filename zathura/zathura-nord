@@ -35,8 +35,3 @@ set render-loading-fg           "#434C5E"
 set recolor-lightcolor          "#2E3440"
 set recolor-darkcolor           "#ECEFF4"
 set recolor                     "true"
-# set recolor-keephue             true      # keep original color map <C-i> zoom in
-  map <C-i> zoom in
- map <C-o> zoom out
- map <C-c> copy
- map <C-d> recolor
