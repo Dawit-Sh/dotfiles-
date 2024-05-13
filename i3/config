@@ -70,7 +70,7 @@ bindsym $mod+Shift+q exec copyq menu
 bindsym $mod+Shift+a exec superproductivity 
 
 #screenshot
-bindsym $mod+Shift+p exec xfce4-screenshooter
+bindsym $mod+Shift+p exec flameshot gui
 
 # autostart
 exec --no-startup-id nitrogen --restore
