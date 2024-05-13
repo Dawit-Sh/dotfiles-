@@ -1,0 +1,38 @@
+{
+  "theme": {
+    "name": "Ozean Theme",
+    "url": "assets:///home/nk/.logseq/plugins/logseq-ozean-theme/main.css",
+    "pid": "logseq-ozean-theme"
+  },
+  "themes": {
+    "mode": "dark",
+    "light": {
+      "name": "Catppuccin Latte",
+      "url": "assets:///home/nk/.logseq/plugins/logseq-catppuccin/ctp-latte.css",
+      "description": "Catppuccin Latte",
+      "mode": "light",
+      "pid": "logseq-catppuccin",
+      "selected": false
+    },
+    "dark": {
+      "name": "Catppuccin Mocha",
+      "url": "assets:///home/nk/.logseq/plugins/logseq-catppuccin/ctp-mocha.css",
+      "description": "Catppuccin Mocha",
+      "mode": "dark",
+      "pid": "logseq-catppuccin",
+      "selected": false
+    }
+  },
+  "externals": [],
+  "pinnedToolbarItems": [
+    "logseq-heatmap:heatmap-plugin-open",
+    "logseq-journals-calendar:open-calendar",
+    "logseq-agenda:Agenda2-Legacy",
+    "logseq-excalidraw:logseq-plugin-excalidraw",
+    "logseq-todo-plugin:logseq-plugin-todo",
+    "logseq-tags:tags-plugin-open",
+    "logseq-journals-calendar:goto-today",
+    "logseq-pdf-export-plugin:logseq-pdf-export-plugin",
+    "logseq-agenda:Agenda3"
+  ]
+}
