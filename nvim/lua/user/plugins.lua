@@ -27,13 +27,13 @@ vim.g.maplocalleader = ' '
 
 
 -- Install your plugins here
-require('lazy').setup({ 
+require('lazy').setup({
   -- My plugins here
   'nvimdev/lspsaga.nvim',
   'mfussenegger/nvim-lint',
-  'folke/neodev.nvim', 
+  'folke/neodev.nvim',
   'nvim-lua/plenary.nvim', -- Useful lua functions used by lots of plugins
-  'windwp/nvim-autopairs',    -- Autopairs, integrates with both cmp and treesitter
+  'windwp/nvim-autopairs', -- Autopairs, integrates with both cmp and treesitter
   'numToStr/Comment.nvim',
   'JoosepAlviste/nvim-ts-context-commentstring',
   'kyazdani42/nvim-web-devicons',
@@ -46,90 +46,92 @@ require('lazy').setup({
   'goolord/alpha-nvim',
   'windwp/nvim-ts-autotag',
   'mbbill/undotree',
+  'ray-x/lsp_signature.nvim',
+
 
   -- Colorschemes
-   'EdenEast/nightfox.nvim',
-   'folke/tokyonight.nvim',
-   'lunarvim/darkplus.nvim',
-   'ellisonleao/gruvbox.nvim',
-   'rebelot/kanagawa.nvim',
-   'nvim-tree/nvim-web-devicons',
+  'EdenEast/nightfox.nvim',
+  'folke/tokyonight.nvim',
+  'lunarvim/darkplus.nvim',
+  'ellisonleao/gruvbox.nvim',
+  'rebelot/kanagawa.nvim',
+  'nvim-tree/nvim-web-devicons',
 
-   -- cmp plugins
-   'hrsh7th/nvim-cmp', -- The completion plugin
-   'hrsh7th/cmp-buffer', -- buffer completions
-   'hrsh7th/cmp-path', -- path completions
-   'saadparwaiz1/cmp_luasnip', -- snippet completions
-   'hrsh7th/cmp-nvim-lsp',
-   'hrsh7th/cmp-nvim-lua',
+  -- cmp plugins
+  'hrsh7th/nvim-cmp',         -- The completion plugin
+  'hrsh7th/cmp-buffer',       -- buffer completions
+  'hrsh7th/cmp-path',         -- path completions
+  'saadparwaiz1/cmp_luasnip', -- snippet completions
+  'hrsh7th/cmp-nvim-lsp',
+  'hrsh7th/cmp-nvim-lua',
 
   -- snippets
-   'L3MON4D3/LuaSnip', --snippet engine
-   'rafamadriz/friendly-snippets', -- a bunch of snippets to 
+  'L3MON4D3/LuaSnip',             --snippet engine
+  'rafamadriz/friendly-snippets', -- a bunch of snippets to
 
   -- LSP
   --  { "williamboman/nvim-lsp-installer", commit = "e9f13d7acaa60aff91c58b923002228668c8c9e6" } -- simple to  language server installer
-   'neovim/nvim-lspconfig', -- enable LSP
-   'williamboman/mason.nvim',
-   'williamboman/mason-lspconfig.nvim',
-   'jose-elias-alvarez/null-ls.nvim', -- for formatters and linters
-   'RRethy/vim-illuminate',
-   'mhartington/formatter.nvim',
-  
+  'neovim/nvim-lspconfig', -- enable LSP
+  'williamboman/mason.nvim',
+  'williamboman/mason-lspconfig.nvim',
+  'jose-elias-alvarez/null-ls.nvim', -- for formatters and linters
+  'RRethy/vim-illuminate',
+  'mhartington/formatter.nvim',
+
   -- Telescope
-   'nvim-telescope/telescope.nvim',
+  'nvim-telescope/telescope.nvim',
 
   -- Treesitter
-   'nvim-treesitter/nvim-treesitter',
+  'nvim-treesitter/nvim-treesitter',
 
   -- Git
-   'lewis6991/gitsigns.nvim',
-   'f-person/git-blame.nvim',
+  'lewis6991/gitsigns.nvim',
+  'f-person/git-blame.nvim',
 
   -- DAP
-   'mfussenegger/nvim-dap',
-   'rcarriga/nvim-dap-ui',
-   'ravenxrz/DAPInstall.nvim',
+  'mfussenegger/nvim-dap',
+  'rcarriga/nvim-dap-ui',
+  'ravenxrz/DAPInstall.nvim',
 
   -- language
-   'ianks/vim-tsx',
-   'pangloss/vim-javascript',
-   'peitalin/vim-jsx-typescript',
-   'leafgarland/typescript-vim',
-   'styled-components/vim-styled-components',
-   {'neoclide/coc.nvim', branch = 'release'}, 
-   'josa42/coc-go',
-   'pantharshit00/coc-prisma',
-   'prisma/vim-prisma',
-   'dart-lang/dart-vim-plugin',
-   'thosakwe/vim-flutter',
-   'natebosch/vim-lsc',
-   'natebosch/vim-lsc-dart',
-   {"ellisonleao/glow.nvim", config = function() require("glow").setup() end}, 
-   'othree/html5.vim',
-   'evanleck/vim-svelte',
-   'leafOfTree/vim-svelte-plugin',
+  'ianks/vim-tsx',
+  'pangloss/vim-javascript',
+  'peitalin/vim-jsx-typescript',
+  'leafgarland/typescript-vim',
+  'styled-components/vim-styled-components',
+  { 'neoclide/coc.nvim',     branch = 'release' },
+  'josa42/coc-go',
+  'pantharshit00/coc-prisma',
+  'prisma/vim-prisma',
+  'dart-lang/dart-vim-plugin',
+  'thosakwe/vim-flutter',
+  'natebosch/vim-lsc',
+  'natebosch/vim-lsc-dart',
+  { "ellisonleao/glow.nvim", config = function() require("glow").setup() end },
+  'othree/html5.vim',
+  'evanleck/vim-svelte',
+  'leafOfTree/vim-svelte-plugin',
 
   -- java and spring
-   'mfussenegger/nvim-jdtls',
-   'folke/trouble.nvim',
+  'mfussenegger/nvim-jdtls',
+  'folke/trouble.nvim',
 
   -- transparency
-   'xiyaowong/transparent.nvim',
-  
+  'xiyaowong/transparent.nvim',
+
   -- linting
   'MunifTanjim/prettier.nvim',
-   'MunifTanjim/eslint.nvim',
-   'elentok/format-on-save.nvim',
-  
-  -- refactoring 
-   'nvim-pack/nvim-spectre',
+  'MunifTanjim/eslint.nvim',
+  'elentok/format-on-save.nvim',
 
-  -- Writing 
-   { 
-    "junegunn/goyo.vim", 
+  -- refactoring
+  'nvim-pack/nvim-spectre',
+
+  -- Writing
+  {
+    "junegunn/goyo.vim",
     config = function()
-    vim.cmd([[
+      vim.cmd([[
       function! s:goyo_enter()
         set linebreak
         set spell spelllang=en_us
@@ -143,22 +145,23 @@ require('lazy').setup({
       autocmd! User GoyoLeave nested call <SID>goyo_leave()
       autocmd! User GoyoEnter nested call <SID>goyo_enter()
     ]])
-  end, 
+    end,
   },
 
-  -- Markdown 
+  -- Markdown
   {
-  "iamcco/markdown-preview.nvim",
-  cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-  build = "cd app && yarn install",
-  init = function()
-    vim.g.mkdp_filetypes = { "markdown" }
-  end,
-  ft = { "markdown" },
-},
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    build = "cd app && yarn install",
+    init = function()
+      vim.g.mkdp_filetypes = { "markdown" }
+    end,
+    ft = { "markdown" },
+  },
+
   -- file management
-    {
-      'stevearc/oil.nvim',
-      config = function() require('oil').setup() end
-    },
+  {
+    'stevearc/oil.nvim',
+    config = function() require('oil').setup() end
+  },
 })

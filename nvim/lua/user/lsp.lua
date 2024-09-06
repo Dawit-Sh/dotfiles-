@@ -1,4 +1,3 @@
-
 -- LSP configuration
 
 -- IMPORTANT: this needs to be set up before LSP.
@@ -121,13 +120,6 @@ local on_attach = function(client, bufnr)
     desc = "Format before saving if LSP is attached",
   })
 end
-
--- Emmet for HTML, Django, and other fun stuff
-require "lspconfig".emmet_ls.setup {
-  on_attach = on_attach,
-  cmd = { "npx", "--prefix", "{{ user_home_dir }}/.local/epic_npm/", "emmet-ls", "--stdio" },
-  filetypes = { "css", "html", "htmldjango", "vue" }
-}
 
 -- Ansible
 require "lspconfig".ansiblels.setup {
