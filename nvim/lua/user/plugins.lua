@@ -49,6 +49,7 @@ require('lazy').setup({
   'ray-x/lsp_signature.nvim',
 
 
+
   -- Colorschemes
   'EdenEast/nightfox.nvim',
   'folke/tokyonight.nvim',
