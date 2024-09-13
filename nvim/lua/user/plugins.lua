@@ -51,11 +51,13 @@ require('lazy').setup({
 
 
   -- Colorschemes
+  'catppuccin/nvim',
   'EdenEast/nightfox.nvim',
   'folke/tokyonight.nvim',
   'lunarvim/darkplus.nvim',
   'ellisonleao/gruvbox.nvim',
   'rebelot/kanagawa.nvim',
+  'Mofiqul/dracula.nvim',
   'nvim-tree/nvim-web-devicons',
 
   -- cmp plugins

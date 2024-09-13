@@ -15,11 +15,11 @@ vim.g.maplocalleader = " "
 --   visual_block_mode = "x",
 --   term_mode = "t",
 --   command_mode = "c",
--- from vim 
+-- from vim
 keymap("n", "<leader>e", ":q<CR>")
 keymap("n", "<leader>E", ":qa!<CR>")
 keymap("n", "<C-z>", ":w<CR>")
--- End 
+-- End
 
 -- Normal --
 -- Better window navigation
@@ -27,6 +27,10 @@ keymap("n", "<C-h>", "<C-w>h", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
 keymap("n", "<C-l>", "<C-w>l", opts)
+
+-- Keymaps for window management
+keymap("n", "<leader>v", ":vsplit<CR>", opts)
+vim.keymap.set("n", "<leader>h", "<cmd>split<cr>", { silent = true })
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
@@ -38,10 +42,10 @@ keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 keymap("n", "<S-l>", ":bnext<CR>", opts)
 keymap("n", "<S-h>", ":bprevious<CR>", opts)
 
--- Move Lines 
+-- Move Lines
 keymap("n", "<A-j>", ":m .+1<CR>==")
 keymap("n", "<A-k>", ":m .-2<CR>==")
- 
+
 keymap("v", "<A-j>", ":m .+1<CR>==")
 keymap("v", "<A-k>", ":m .-2<CR>==")
 
@@ -63,15 +67,18 @@ keymap("i", "jk", "<ESC>", opts)
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
 
--- Plugins --
 
---  Markdown preview  
+-----------------------------
+--------- Plugins -----------
+----------------------------
+
+--  Markdown preview
 keymap("n", "<S-p>", ":MarkdownPreviewToggle<CR>")
 
--- Oil Nim 
+-- Oil Nim
 vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
 
--- Goyo 
+-- Goyo
 keymap("n", "<leader>g", ":Goyo<CR>", opts)
 
 -- NvimTree
