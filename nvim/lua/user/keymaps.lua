@@ -50,7 +50,7 @@ keymap("v", "<A-j>", ":m .+1<CR>==")
 keymap("v", "<A-k>", ":m .-2<CR>==")
 
 -- Clear highlights
-keymap("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
+keymap("n", "<leader>s", "<cmd>nohlsearch<CR>", opts)
 
 -- Close buffers
 keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
