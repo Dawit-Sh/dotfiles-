@@ -26,5 +26,6 @@ require "user.prettier"
 require "user.null_ls"
 require "lspconfig".clangd.setup {}
 require "lspconfig".svelte.setup {}
+require("nvim-surround").setup()
 -- require bug fixes (Optional)
 require "user.fixes"
