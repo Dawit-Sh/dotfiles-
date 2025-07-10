@@ -47,7 +47,6 @@ require('lazy').setup({
   'windwp/nvim-ts-autotag',
   'mbbill/undotree',
   'ray-x/lsp_signature.nvim',
-  { 'wakatime/vim-wakatime', lazy = false },
 
 
 
@@ -79,7 +78,14 @@ require('lazy').setup({
   'neovim/nvim-lspconfig', -- enable LSP
   'williamboman/mason.nvim',
   'williamboman/mason-lspconfig.nvim',
-  'jose-elias-alvarez/null-ls.nvim', -- for formatters and linters
+  {
+    "nvimtools/none-ls.nvim",
+    name = "null-ls", -- optional: lets you continue using require("null-ls")
+    dependencies = { "nvim-lua/plenary.nvim" },
+    config = function()
+      require("user.null_ls")
+    end,
+  },
   'RRethy/vim-illuminate',
   'mhartington/formatter.nvim',
 
@@ -157,7 +163,7 @@ require('lazy').setup({
   {
     "iamcco/markdown-preview.nvim",
     cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-    build = "cd app && yarn install",
+    build = "cd app && npm install",
     init = function()
       vim.g.mkdp_filetypes = { "markdown" }
     end,
