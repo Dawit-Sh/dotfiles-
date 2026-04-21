@@ -3,6 +3,56 @@
 -- IMPORTANT: this needs to be set up before LSP.
 require("neodev").setup({})
 
+local lazy_loader = nil
+local loader_ok, loader = pcall(require, "lazy.core.loader")
+if loader_ok then
+  lazy_loader = loader
+  lazy_loader.load("nvim-lspconfig")
+end
+
+local function ensure_server(name)
+  if lazy_loader then
+    lazy_loader.load("nvim-lspconfig")
+  end
+
+  local config = nil
+
+  if vim.lsp.config then
+    pcall(vim.lsp.config, name, {})
+    config = vim.lsp.config[name]
+  end
+
+  if config and type(config.setup) == "function" then
+    return config
+  end
+
+  local ok_configs, configs = pcall(require, "lspconfig.configs")
+  if ok_configs and type(configs) == "table" then
+    local ok_direct, direct = pcall(require, "lspconfig.configs." .. name)
+    if ok_direct and type(direct) == "table" then
+      configs[name] = direct
+      config = configs[name]
+    else
+      config = configs[name]
+    end
+  end
+
+  if config and type(config.setup) == "function" then
+    return config
+  end
+
+  vim.notify("LSP config not found for: " .. name, vim.log.levels.WARN)
+  return nil
+end
+
+local function setup_server(name, opts)
+  local srv = ensure_server(name)
+  if not srv then
+    return
+  end
+  srv.setup(opts)
+end
+
 -- LSP Saga config
 require("lspsaga").setup({
   lightbulb = {
@@ -122,29 +172,29 @@ local on_attach = function(client, bufnr)
 end
 
 -- Ansible
-require "lspconfig".ansiblels.setup {
+setup_server("ansiblels", {
   on_attach = on_attach,
   cmd = { "npx", "--prefix", "{{ user_home_dir }}/.local/epic_npm/", "ansible-language-server", "--stdio" },
-}
+})
 
 -- Docker
-require "lspconfig".dockerls.setup {
+setup_server("dockerls", {
   on_attach = on_attach,
   cmd = { "npx", "--prefix", "{{ user_home_dir }}/.local/epic_npm/", "docker-langserver", "--stdio" },
-}
+})
 
 -- Golang
-require "lspconfig".gopls.setup {
+setup_server("gopls", {
   on_attach = on_attach,
-}
+})
 
 -- JS
-require "lspconfig".ts_ls.setup {
+setup_server("ts_ls", {
   on_attach = on_attach
-}
+})
 
 -- Lua
-require "lspconfig".lua_ls.setup {
+setup_server("lua_ls", {
   settings = {
     Lua = {
       semantic = {
@@ -176,10 +226,10 @@ require "lspconfig".lua_ls.setup {
     }
   },
   on_attach = on_attach
-}
+})
 
 -- Python
-require "lspconfig".pylsp.setup {
+setup_server("pylsp", {
   on_attach = on_attach,
   settings = {
     pylsp = {
@@ -202,26 +252,26 @@ require "lspconfig".pylsp.setup {
         pyflakes = {
           enabled = false,
         },
-      }
-    }
-  }
-}
+      },
+    },
+  },
+})
 
 -- Tailwind CSS
-require "lspconfig".tailwindcss.setup {
+setup_server("tailwindcss", {
   on_attach = on_attach,
   cmd = { "npx", "--prefix", "{{ user_home_dir }}/.local/epic_npm/", "tailwindcss-language-server", "--stdio" },
-}
+})
 
 -- Vue.js
-require "lspconfig".volar.setup {
+setup_server("volar", {
   on_attach = on_attach,
   cmd = { "npx", "--prefix", "{{ user_home_dir }}/.local/epic_npm/", "vue-language-server", "--stdio" },
   filetypes = { "vue" },
-}
+})
 
 -- YAML
-require "lspconfig".yamlls.setup {
+setup_server("yamlls", {
   on_attach = on_attach,
   filetypes = { "yaml", "yaml.ansible" },
   settings = {
@@ -231,4 +281,4 @@ require "lspconfig".yamlls.setup {
       },
     },
   },
-}
+})
